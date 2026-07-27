@@ -626,5 +626,9 @@ footer{view-transition-name:mt-foot}
 }
 
 
-/* === auto-paleta ze zdjęć klienta (dopasowanie do estetyki socials) === */
-:root{--accent:#94623D;--accent-d:#744A2A;--accent-soft:rgba(148,98,61,0.10);--paper:#F9F9F8;--paper-2:#EFEEED;--paper-3:#E8E7E5;}
+/* === paleta marki (2026-07-27) ===
+   Zieleń wzięta z logo firmy (wiatraczek #7EBA3A), przyciemniona do #4E8620,
+   żeby biały tekst na przycisku miał kontrast WCAG AA. Tła chłodne, lekko
+   zielonkawe - branża wentylacyjna czyta się na chłodno, terakota z auto-palety
+   rozjeżdżała się z logo i z tematem powietrza. */
+:root{--accent:#4E8620;--accent-d:#3D6B18;--accent-soft:rgba(78,134,32,0.10);--paper:#F7F9F6;--paper-2:#EDF2EA;--paper-3:#E5EBE1;}

@@ -28,3 +28,6 @@ __pycache__/
 *.log
 .env
 *.bak
+
+# wyjatek: robots.txt to element strony (SEO), nie plik roboczy
+!robots.txt
